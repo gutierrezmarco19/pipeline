@@ -6,7 +6,7 @@ In this project, I developed a solution locally using a Jupyter notebook. Compon
 
 Database:
 I used PostgreSQL with the PostGIS extension to handle geospatial data, as the API provides coordinates, and future use cases may require spatial queries.
-In this case I need have the JDBC jar in a locally file. (postgresql-42.7.4)
+In this case I need have the JDBC jar in a locally file. (postgresql-42.7.4). The table will be created in the public schema.
 
 Data Processing:
 I used PySpark to handle data fetched from an API endpoint. because the volume of data is unknown I prefeer use PySpark.
